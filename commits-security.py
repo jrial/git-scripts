@@ -88,9 +88,9 @@ for branch in sorted(out_dict.keys()):
                     for line in patch.split('\n'):
                         color = colors.get(line[0], reset_color) if line else reset_color
                         print color + '  ' + line
-            if pause:
-                cont = raw_input("Press Enter to continue...")
-                print
-                if cont == 'q':
-                    sys.exit()
+                if pause:
+                    cont = raw_input("Press Enter to continue...")
+                    print
+                    if cont == 'q':
+                        sys.exit()
     print
