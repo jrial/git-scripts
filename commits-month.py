@@ -3,6 +3,7 @@
 from git import *
 import sys
 import getopt
+from configobj import ConfigObj
 from datetime import datetime
 from os.path import expanduser
 
